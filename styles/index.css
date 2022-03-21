@@ -60,6 +60,12 @@
 .container .form-1 form #about:focus {
   border: 2px solid #00b7ff;
 }
+.container .form-1 form #about::-webkit-resizer {
+  display: none;
+}
+.container .form-1 form #about::-webkit-scrollbar {
+  display: none;
+}
 .container .form-1 form a {
   background: transparent;
   border: 2px solid #fff;
@@ -77,6 +83,6 @@
   margin-left: 20px;
 }
 .container .form-1 form a:hover {
-  background: #fff;
-  color: black;
+  background: #00b7ff;
+  border: 2px solid #00b7ff;
 }/*# sourceMappingURL=index.css.map */
