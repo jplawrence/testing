@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .form-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/landscape-nature.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .form-1 h2 {
+  font-size: 40px;
+  color: #fff;
+}
+.container .form-1 form label {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.container .form-1 form input {
+  background: transparent;
+  border: 2px solid white;
+  outline: none;
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  padding: 5px 15px;
+  color: #fff;
+}
+.container .form-1 form input:focus {
+  border: 2px solid #00b7ff;
+}
+.container .form-1 form #about {
+  border: 2px solid white;
+  outline: none;
+  width: 300px;
+  color: #fff;
+  background: transparent;
+  padding: 10px 5px;
+}
+.container .form-1 form #about:focus {
+  border: 2px solid #00b7ff;
+}
+.container .form-1 form a {
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 10px 68px;
+  transition: 0.4s;
+  cursor: pointer;
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.container .form-1 form a i {
+  margin-left: 20px;
+}
+.container .form-1 form a:hover {
+  background: #fff;
+  color: black;
+}/*# sourceMappingURL=index.css.map */
